@@ -1,0 +1,141 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+   
+    background-color:black;
+    color:white;
+
+}
+.left{
+    display: inline-block;
+    position:absolute;
+    left:50px;
+    top:20px;
+}
+.left img{
+    width: 39px;
+
+}
+.mid{
+    color: white;
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    position:absolute;
+    right:30px;
+    top:20px;
+}
+.navbar{
+    display: inline-block;
+    color: grey;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 35px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 19px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: red;
+}
+.navbar ul li a{
+    color: white;
+}
+.left1 h3{
+    font-size:50px ;
+    margin: 10px;
+    padding: 0;
+}
+.left1 h4{
+   font-size: 25px;
+    margin: 10px;
+    padding: 0;
+}
+.left1{
+    display: inline-block;
+    position:absolute;
+    left:370px;
+    top:310px;
+}
+.left1 p{
+    font-size: 20px;
+    margin: 6px;
+    padding: 0;
+}
+.left2 img{
+    width: 250px;
+}
+
+.left2{
+    display: inline-block;
+    position:absolute;
+    left:300px;
+    top:280px;
+}
+.right2{
+    display: inline-block;
+    position:absolute;
+    right:300px;
+    top:300px;
+
+}
+.right2 h3{
+    font-size: 50px;
+    margin: 3px;
+}
+
+.right2 p{
+    font-size: 20px;
+    margin: 3px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 120px;
+}
+.soclogo img{
+     height: 50px;
+     margin: 20px;
+}
+.clog img{
+    height: 109px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+p{
+    padding: 15px;
+    margin: 5px;
+
+}
+h2{
+    margin-bottom: 14px;
+    
+}
+#cn{
+    padding: 15px;
+    margin: 5px;
+    
+}
+#em{
+    padding: 15px;
+    margin: 5px;
+    
+}
+#fm{
+    padding: 15px;
+    margin: 5px;
+    
+}
